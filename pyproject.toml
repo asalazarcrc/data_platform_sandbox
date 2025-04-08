@@ -1,0 +1,17 @@
+[project]
+name = "data-platform-sandbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "b2sdk>=2.8.0",
+    "boto3>=1.37.29",
+    "dagster>=1.10.9",
+    "duckdb>=1.2.2",
+    "fastparquet>=2024.11.0",
+    "polars>=1.26.0",
+    "pyarrow>=19.0.1",
+    "pyodbc>=5.2.0",
+    "python-dotenv>=1.1.0",
+]
